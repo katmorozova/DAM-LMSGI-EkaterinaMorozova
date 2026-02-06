@@ -1,0 +1,25 @@
+﻿{
+  "$schema": "https://example.org/cifp.schema.json",
+  "cifp": {
+    "alumne": [
+      {
+        "id": 1,
+        "nom": "Joan",
+        "llinatges": "Garcia Pons",
+        "data_naixement": "2005-03-12",
+        "correu": "joan.garcia@example.org",
+        "telefon": "600123123",
+        "adreça": "Carrer Major 10, Inca",
+        "data_matricula": "2023-09-01",
+        "curs": "DAM"
+      },
+      {
+        "id": 2,
+        "nom": "Maria",
+        "llinatges": "Riera Llompart",
+        "data_matricula": "2024-09-01",
+        "curs": "DAW"
+      }
+    ]
+  }
+}

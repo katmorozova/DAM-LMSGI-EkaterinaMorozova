@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE cifp SYSTEM "cifp.dtd">
+
+<cifp>
+    <alumne id="1">
+        <nom>Regina</nom>
+        <llinatges>Gómez</llinatges>
+        <data_naixement>1986-12-18</data_naixement>
+        <correu>gomez@gmail.com</correu>
+        <telefon>123123123</telefon>
+        <adreça>Carrer Major 1, Palma de Mallorca</adreça>
+        <data_matricula>2025-09-06</data_matricula>
+        <curs>DAM</curs>
+    </alumne>
+
+    <professor id="2">
+        <nom>Marc</nom>
+        <llinatges>Carter</llinatges>
+        <data_naixement>1978-03-03</data_naixement>
+        <correu>carter@mail.com</correu>
+        <telefon>654654654</telefon>
+        <adreça>Carrer Nou 12, Inca</adreça>
+        <data_incorporació>2010-09-01</data_incorporació>
+        <departament>Informàtica</departament>
+
+        <assignatura id_assignatura="3">
+            <nom_assignatura cicle="DAM">Programació</nom_assignatura>
+            <data_inici>2025-09-15</data_inici>
+            <data_final>2026-06-15</data_final>
+        </assignatura>
+
+    </professor>
+</cifp>

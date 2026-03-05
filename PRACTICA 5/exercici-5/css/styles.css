@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(232, 244, 251);
+}
+
+#results {
+    width: 95%;
+    margin:auto;
+}
+
+/*ESTILO PARA EL TITULO*/
+.title{
+  text-align: center;  
+  color: #0b2c6b;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.office{
+    background-color: white;
+    margin: 40px 0;
+}
+/*ESTILO PARA HEADER DEL CONTENEDOR*/
+.office-header {
+    background-color: #0b2c6b;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*ESTILO PARA LA TABLA CON DATOS*/
+.office-content {
+    display: flex;
+    gap: 30px;
+    background-color: white;
+    margin-bottom: 30px;
+    border: 1px solid #cccccc;
+}
+.office-data {
+    margin-left: 150px;
+    width: 100%;
+}
+
+/*ESTILO PARA LA IMAGEN*/
+.office-content img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+/*ESTILOS PARA LA TABLA*/
+.office-table{
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border:none;
+}
+.office-table td{
+    padding: 6px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.office-table tr { 
+    border: 1px 
+    solid #cccccc; 
+}
+
+.office-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
